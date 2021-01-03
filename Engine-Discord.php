@@ -83,9 +83,9 @@ $Curlexec = new Curl();
 
 	$Curlexec->url = 'https://discordapp.com/api/v6/auth/login';
 
-		$Curlexec->email = 'mirror.freefire@gmail.com';
+		$Curlexec->email = 'email';
 
-			$Curlexec->senha = '73542155a';
+			$Curlexec->senha = 'senha';
 
 				$Curlexec->headers = array('Accept-Language: pt-BR',
 					'Accept: */*',
